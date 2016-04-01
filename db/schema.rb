@@ -19,9 +19,9 @@ ActiveRecord::Schema.define(version: 20160106160414) do
   create_table "class_rooms", force: :cascade do |t|
     t.integer  "student_id"
     t.integer  "course_id"
-    t.datetime "entry_at"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
+    t.datetime "entry_at",   default: "now()"
   end
 
   add_index "class_rooms", ["course_id"], name: "index_class_rooms_on_course_id", using: :btree

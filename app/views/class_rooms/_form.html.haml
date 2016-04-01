@@ -15,9 +15,7 @@
     = f.label ClassRoom.human_attribute_name(:course_id)
     %br/
     = collection_select(:class_room, :course_id, Course.all, :id , :name, {:class => "form-group"})
-  .field
-    = f.label ClassRoom.human_attribute_name(:entry_at)
-    %br/
-    = f.datetime_select :entry_at
+
+    = f.hidden_field :entry_at, value: Time.now
   .actions
     = f.submit

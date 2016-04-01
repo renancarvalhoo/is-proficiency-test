@@ -18,7 +18,7 @@
   .field
     = f.label Course.human_attribute_name(:status)
     %br/
-    = f.number_field :status
+    = f.select(:status, [['Ativo', :ativo], ['Inativo', :inativo]], :class => 'form-control')
   .actions
     = f.submit
 

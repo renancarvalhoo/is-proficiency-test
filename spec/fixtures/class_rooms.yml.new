@@ -1,0 +1,15 @@
+---
+class_rooms_001:
+  id: '298486374'
+  student_id: 
+  course_id: 
+  created_at: '2016-04-01 05:58:05'
+  updated_at: '2016-04-01 05:58:05'
+  entry_at: '2016-01-06 14:04:14'
+class_rooms_002:
+  id: '980190962'
+  student_id: 
+  course_id: 
+  created_at: '2016-04-01 05:58:05'
+  updated_at: '2016-04-01 05:58:05'
+  entry_at: '2016-01-06 14:04:14'
