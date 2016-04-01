@@ -1,0 +1,13 @@
+%p#notice= notice
+%p
+  %strong Name:
+  = @student.name
+%p
+  %strong Register number:
+  = @student.register_number
+%p
+  %strong Status:
+  = @student.status
+= link_to t(:edit), edit_student_path(@student) , :class => "btn btn-warning"
+|
+= link_to t(:back), students_path , :class => "btn btn-danger"

@@ -1,0 +1,26 @@
+"pt-BR":
+  activerecord:
+    models:
+      user: "Usuário"
+      class_room: "Matrícula"
+      course: "Curso"
+      student: "Aluno"
+    attributes:
+      user:
+        email: "E-mail"
+        password: "Senha"
+        password_confirmation: "Confirmar Senha"
+        current_password: "Senha Atual"
+        remember_me: "Lembre-se de mim"
+      class_room:
+        student_id: "Aluno"
+        course_id: "Curso"
+        entry_at: "Matrículado em"
+      course:
+        name: "Nome"
+        description: "Descrição"
+        status: "Estado"
+      student:
+        name: "Nome"
+        register_number: "Número de Registro"
+        status: "Estado"      

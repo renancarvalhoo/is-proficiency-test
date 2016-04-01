@@ -1,0 +1,30 @@
+"pt-BR":
+  show: "Mostrar"
+  edit: "Editar"
+  destroy: "Excluir"
+  back: "Voltar"
+  confirm_delete: "Tem certeza que deseja remover ?"
+  class_rooms:
+    index:
+      title: "Lista de Matrículas"
+      new_item: "Nova Matrícula"
+    new:
+      title: "Nova Matrícula"
+    edit:
+      title: "Editando Matrícula"      
+  students:
+    index:
+      title: "Lista de Estudantes"
+      new_item: "Novo Aluno" 
+    new:
+      title: "Novo Aluno"
+    edit:
+      title: "Editando Aluno"         
+  courses:
+    index:
+      title: "Lista de Cursos"
+      new_item: "Novo Curso"
+    new:
+      title: "Novo Curso"
+    edit:
+      title: "Editando Curso"   

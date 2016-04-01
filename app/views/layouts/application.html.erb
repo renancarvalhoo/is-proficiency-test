@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RbInternetSystem</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div style="background-color: #E9E9E9" class="container">
+<div class="nav nav-tabs" id="menu">
+    <li><%= link_to Student.model_name.human, students_path %></li>
+    <li><%= link_to ClassRoom.model_name.human, class_rooms_path %></li>
+    <li><%= link_to Course.model_name.human, courses_path %></li>
+</div>
+<%= yield %>
+
+</div>
+</body>
+</html>

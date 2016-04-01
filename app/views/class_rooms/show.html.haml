@@ -1,0 +1,13 @@
+%p#notice= notice
+%p
+  %strong= ClassRoom.human_attribute_name(:student_id)+":"
+  = @class_room.student.name
+%p
+  %strong= ClassRoom.human_attribute_name(:course_id)+":"
+  = @class_room.course.name
+%p
+  %strong= ClassRoom.human_attribute_name(:entry_at)+":" 
+  = @class_room.entry_at
+= link_to t(:edit), edit_class_room_path(@class_room) , :class => "btn btn-warning"
+|
+= link_to t(:back), class_rooms_path, :class => "btn btn-danger"

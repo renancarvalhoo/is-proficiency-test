@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  register_number: MyText
+  status: 1
+
+two:
+  name: MyText
+  register_number: MyText
+  status: 1
