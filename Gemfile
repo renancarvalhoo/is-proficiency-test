@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor', group: :production
+gem 'unicorn', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -55,3 +57,4 @@ group :development do
   gem 'rspec-rails'
 end
 
+ruby '2.2.3'
